@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[Create Account](create-Account.html)
+[Create Account](create-account.html)
 <br>
 
 [Login To Account](login-to-account.html)
