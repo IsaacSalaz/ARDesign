@@ -1,5 +1,40 @@
 ## Welcome to GitHub Pages
 
+[Create Account](create-Account.html)
+<br>
+
+[Login To Account](login-to-account.html)
+
+[Logout Of Account](logout-of-account.html)
+
+[Delete Account](delete-account.html)
+
+[Edit Personal Info](edit-personal-info.html)
+
+[Recieve Tech Support](recieve-tech-support.html)
+
+[Scan Room](scan-room.html)
+
+[Search Model Database](search-model-database.html)
+
+[Share Buildings](share-buildings.html)
+
+[Share Layouts](share-layouts.html)
+
+[Share Models](share-models.html)
+
+[Store Layouts](store-layouts.html)
+
+[Upload Models](upload-models.html)
+
+[Verify Account Upgrade](verify-account-upgrade.html)
+
+[View All Buildings](view-all-buildings.html)
+
+[View All Models](view-all-models.html)
+
+[View All Stored Layouts](view-all-stored-layouts.html)
+
 You can use the [editor on GitHub](https://github.com/IsaacSalaz/ARDesign/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
