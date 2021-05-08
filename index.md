@@ -5,8 +5,6 @@
 
 [Login To Account](login-to-account.html)
 
-[Logout Of Account](logout-of-account.html)
-
 [Delete Account](delete-account.html)
 
 [Edit Personal Info](edit-personal-info.html)
@@ -16,12 +14,6 @@
 [Scan Room](scan-room.html)
 
 [Search Model Database](search-model-database.html)
-
-[Share Buildings](share-buildings.html)
-
-[Share Layouts](share-layouts.html)
-
-[Share Models](share-models.html)
 
 [Store Layouts](store-layouts.html)
 

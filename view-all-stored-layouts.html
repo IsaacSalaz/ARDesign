@@ -2,12 +2,72 @@
 <html>
     <head>
         <title>View All Stored Layouts</title>
+
+        <style>
+            .inputfield {background: rgb(5, 240, 240)}
+            .inputlabel {color: black;font-weight: bold}
+            .outputlabel {font-weight: bold}
+            .output {color:darkred;font-weight: bold}
+            .title {color: rgb(5, 240, 240);font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    
+            .center-screen 
+            {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>View All Stored Layouts</h1>
-        <h2>Group layouts into buildings</h2>
-        <h2>Edit stored layouts</h2>
-        <h2>Delete stored layouts</h2>
-        <a href="index.html">HOME</a>
+
+        <div class="center-screen">
+
+        <h1 class="title">View All Stored Layouts</h1>
+
+        <table>
+        </tr>
+        <tr>
+        <td><img src="layout-example.JPG" style="width:200px"></td>
+        <td style="text-align:left;vertical-align:top">
+        Layout 1<br>
+        <input type="button" value="Group into Building" >
+        <input type="button" value="Edit" >
+        <input type="button" value="Share" >
+        <input type="button"    value="Delete Layout" >     <br>
+        </td>
+        </tr>
+        <tr>
+        <td><img src="layout-example.JPG" style="width:200px"></td>
+        <td style="text-align:left;vertical-align:top">
+        Layout 2<br>
+        <input type="button" value="Group into Building" >
+        <input type="button" value="Edit" >
+        <input type="button" value="Share" >
+        <input type="button"    value="Delete Layout" >     <br>
+        </td>
+        <tr>
+        <td><img src="layout-example.JPG" style="width:200px"></td>
+        <td style="text-align:left;vertical-align:top">
+        Layout 3<br>
+        <input type="button" value="Group into Building" >
+        <input type="button" value="Edit" >
+        <input type="button" value="Share" >
+        <input type="button"    value="Delete Layout" >     <br>
+        </td>
+        </tr>
+        <tr>
+        <td><img src="layout-example.JPG" style="width:200px"></td>
+        <td style="text-align:left;vertical-align:top">
+        Layout 4<br>
+        <input type="button" value="Group into Building" >
+        <input type="button" value="Edit" >
+        <input type="button" value="Share" >
+        <input type="button"    value="Delete Layout" >     <br>
+        </td>
+        </tr>
+        </table>
+        
+        <a href="index.html">HOME</a>          <input type="button"    value="Logout" onClick="location.href='logout-of-account.html'"> 
+
+        </div>
     </body>
 </html>
