@@ -2,15 +2,32 @@
 <html>
     <head>
         <title>View All Models</title>
+
+        <style>
+            .inputfield {background: rgb(5, 240, 240)}
+            .inputlabel {color: black;font-weight: bold}
+            .outputlabel {font-weight: bold}
+            .output {color:darkred;font-weight: bold}
+            .title {color: rgb(5, 240, 240);font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    
+            .center-screen 
+            {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>Your Saved Models</h1>
+
+        <div class="center-screen">
+
+        <h1 class="title">Your Saved Models</h1>
         <table>
         </tr>
         <tr>
         <td><img src="coffee-table.jpg" style="width:200px"></td>
         <td style="text-align:left;vertical-align:top">
-        Wood Coffee Table.<br>
+        Wood Coffee Table<br>
         <input type="button" value="Add to Folder" onClick="location.href='added-to-folder.html'">
         <input type="button"    value="Delete Model" onClick="location.href='model-deleted.html'">     <br>
         </td>
@@ -18,14 +35,14 @@
         <tr>
         <td><img src="sofa.jpg" style="width:200px"></td>
         <td style="text-align:left;vertical-align:top">
-        Yellow Sofa.<br>
+        Yellow Sofa<br>
         <input type="button" value="Add to Folder" onClick="location.href='added-to-folder.html'">
         <input type="button"    value="Delete Model" onClick="location.href='model-deleted.html'">     <br>
         </td>
         <tr>
         <td><img src="bookshelf.jpg" style="width:200px"></td>
         <td style="text-align:left;vertical-align:top">
-        Wood Bookshelf.<br>
+        Wood Bookshelf<br>
         <input type="button" value="Add to Folder" onClick="location.href='added-to-folder.html'">
         <input type="button"    value="Delete Model" onClick="location.href='model-deleted.html'">     <br>
         </td>
@@ -33,14 +50,20 @@
         <tr>
         <td><img src="rug.jpg" style="width:200px"></td>
         <td style="text-align:left;vertical-align:top">
-        Red Rug.<br>
+        Red Rug<br>
         <input type="button" value="Add to Folder" onClick="location.href='added-to-folder.html'">
         <input type="button"    value="Delete Model" onClick="location.href='model-deleted.html'">     <br>
         </td>
         </tr>
         </table>
-        <h2>Create Model Folders</h2>
+        <h2 class="title">Create Model Folders</h2>
         <input type="button"    value="Create Folder" onClick="location.href='created-folder.html'">     <br><br>
+
+        <h2 class="title">Search for Models</h2>
+        <input type="button"    value="Create Folder" onClick="location.href='search-model-database.html'">     <br><br>
+
         <a href="index.html">HOME</a>
+
+        </div>
     </body>
 </html>

@@ -2,14 +2,33 @@
 <html>
     <head>
         <title>Login to account</title>
+
+        <style>
+            .inputfield {background: rgb(5, 240, 240)}
+            .inputlabel {color: black;font-weight: bold}
+            .outputlabel {font-weight: bold}
+            .output {color:darkred;font-weight: bold}
+            .title {color: rgb(5, 240, 240);font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    
+            .center-screen 
+            {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>Login to account</h1>
-        <td>Username:</td>
-        <input type="text"      placeholder="Username">      <br>
-        <td>Password:</td>
-        <input type="password"      placeholder="Password">      <br><br>
+
+        <div class="center-screen">
+        <h1 class="title">Login to account</h1>
+        <span class="inputlabel"><td>Username:</td></span>
+        <input type="text"      placeholder="Username" class="inputfield">      <br>
+        <span class="inputlabel"><td>Password:</td></span>
+        <input type="password"      placeholder="Password" class="inputfield">      <br><br>
         <input type="button"    value="Login" onClick="location.href='scan-room.html'">     <br><br>
+        <input type="button"    value="Forgot Password?" >     <br><br>
         <a href="index.html">HOME</a>
+
+        </div>
     </body>
 </html>

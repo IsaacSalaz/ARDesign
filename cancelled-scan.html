@@ -2,10 +2,27 @@
 <html>
     <head>
         <title>Your scan has been cancelled</title>
+
+        <style>
+            .inputfield {background: rgb(5, 240, 240)}
+            .inputlabel {color: black;font-weight: bold}
+            .outputlabel {font-weight: bold}
+            .output {color:darkred;font-weight: bold}
+            .title {color: rgb(5, 240, 240);font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+    
+            .center-screen 
+            {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
-        <h1>Your scan has been cancelled</h1> <br>
-        <input type="button"    value="Back to scan page" onClick="location.href='scan-room.html'">     <br><br>
+        <div class="center-screen">
+
+        <h1 class="title">Your scan has been cancelled</h1> <br>
+        <input type="button"    value="Back to scan page" onClick="location.href='scan-room.html'" class="inputlabel">     <br><br>
         <a href="index.html">HOME</a>
+        </div>
     </body>
 </html>

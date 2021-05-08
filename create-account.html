@@ -2,23 +2,40 @@
 <html>
     <head>
         <title>Create Account</title>
+
+        <style>
+        .inputfield {background: rgb(5, 240, 240)}
+        .inputlabel {color: black;font-weight: bold}
+        .outputlabel {font-weight: bold}
+        .output {color:darkred;font-weight: bold}
+        .title {color: rgb(5, 240, 240);font-weight: bold;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+        .center-screen 
+        {
+            text-align: center;
+        }
+    </style>
+
     </head>
     <body>
-        <h1>Create Account</h1>
-        <td>E-mail Address:</td>
-        <input type="text"      placeholder="E-Mail">      <br>
-        <td>Username:</td>
-        <input type="text"      placeholder="Username">      <br>
-        <td>Password:</td>
-        <input type="password"      placeholder="Password">      <br>
-        <td>Confirm Password:</td>
-        <input type="password"      placeholder="Confirm Password">      <br><br>
-        <td>User type:</td><br>
-        <input type="radio" id= "DIY Homeowner" name="DIYorCI" value="DIY Homeowner"><label for="DIY Homeowner">DIY Homeowner</label><br>     
+
+        <div class="center-screen">
+        <h1 class="title">Create Account</h1>
+        <span class="inputlabel"><td>E-mail Address:</td></span>
+        <input type="text"      placeholder="E-Mail" class="inputfield">      <br>
+        <span class="inputlabel"><td>Username:</td></span>
+        <input type="text"      placeholder="Username" class="inputfield">      <br>
+        <span class="inputlabel"><td>Password:</td></span>
+        <input type="password"      placeholder="Password" class="inputfield">      <br>
+        <span class="inputlabel"><td>Confirm Password:</td></span>
+        <input type="password"      placeholder="Confirm Password" class="inputfield">      <br><br>
+        <span class="inputlabel"><td>User type:</td></span><br>
+        <input type="radio" id= "DIY Homeowner" name="DIYorCI" value="DIY Homeowner" ><label for="DIY Homeowner">DIY Homeowner</label><br>     
         <input type="radio" id= "Contractor or Interior Designer" name="DIYorCI" value="Contractor or Interior Designer"><label for="Contractor or Interior Designer">Contractor or Interior Designer</label><br>   
         <h2>Upgrade Account</h2>      
-        <td>Would you like to upgrade your account for more features?:</td><br>
-        <select>
+        <span class="inputlabel"><td>Would you like to upgrade your account for more features?:</td></span><br>
+        <select class="inputfield">
             <option></option>
             <option>Yes</option>
             <option>No</option>
@@ -29,5 +46,7 @@
         <input type="button"    value="Create Account" onClick="location.href='ty-for-registering.html'">     <br>
         
         <br>        <a href="index.html">HOME</a>
+
+        </div>
     </body>
 </html>
